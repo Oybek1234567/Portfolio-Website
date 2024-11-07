@@ -128,7 +128,8 @@ html, body{
     align-items: end;
     justify-content: flex-end;
     background:url("../img/img.jpg") no-repeat center top fixed;
-    background-size: 1600px;
+    background-size: 3000px;
+    object-fit: cover;
     padding: var(--container-padding);
     background-color: var(--color-violet);
     color: var(--color-white);
@@ -307,7 +308,7 @@ html, body{
 }
 .section__services_card {
     width: 367px;
-    height: 420px;
+    height: 530px;
     border-radius: 10px;
     background-color: var(--color-white);
     color: var(--color-dark-purple);
@@ -373,7 +374,7 @@ html, body{
 }
 .section__skills_lists li div {
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 240px;
     align-self: center;
     width: 835px;
     height: 20px;
@@ -460,7 +461,7 @@ html, body{
 }
 .section__contact_info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 135px;
     color: var(--color-white);
 }
@@ -477,7 +478,7 @@ html, body{
 .section__contact_form {
     max-width: 657px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
 }
 .section__contact_form .name {
     grid-column: 1/3;
